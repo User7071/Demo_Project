@@ -4,6 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo "Hello world"'
+                sh 'tomcat --version'
             }
         }
     }
