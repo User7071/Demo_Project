@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'apache2 --version'
+                sh 'echo "Hello world"'
             }
         }
     }
